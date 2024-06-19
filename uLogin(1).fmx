@@ -1,0 +1,297 @@
+object Form2: TForm2
+  Left = 390
+  Top = 60
+  Caption = 'Cadastro_form'
+  ClientHeight = 800
+  ClientWidth = 390
+  Fill.Kind = Solid
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  Left = 390
+  Top = 60
+  DesignerMasterStyle = 0
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 390.000000000000000000
+    Size.Height = 800.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 0
+    TabOrder = 0
+    TabPosition = None
+    Sizes = (
+      390s
+      800s
+      390s
+      800s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem1'
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object Layout1: TLayout
+        Align = Client
+        Size.Width = 390.000000000000000000
+        Size.Height = 800.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Panel1: TPanel
+          Align = Center
+          Size.Width = 300.000000000000000000
+          Size.Height = 399.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object edt_ent_email: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 1
+            Position.X = 15.000000000000000000
+            Position.Y = 84.000000000000000000
+            Size.Width = 270.000000000000000000
+            Size.Height = 35.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object edt_ent_senha: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 0
+            Password = True
+            Position.X = 15.000000000000000000
+            Position.Y = 183.000000000000000000
+            Size.Width = 270.000000000000000000
+            Size.Height = 35.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object Label1: TLabel
+            StyledSettings = [Family, Style, FontColor]
+            Position.X = 16.000000000000000000
+            Position.Y = 65.000000000000000000
+            TextSettings.Font.Size = 16.000000000000000000
+            Text = 'E-mail *'
+            TabOrder = 4
+          end
+          object Label2: TLabel
+            StyledSettings = [Family, Style, FontColor]
+            Position.X = 15.000000000000000000
+            Position.Y = 164.000000000000000000
+            TextSettings.Font.Size = 16.000000000000000000
+            Text = 'Senha *'
+            TabOrder = 3
+          end
+          object btn_entrar_fn: TSpeedButton
+            StyledSettings = [Style, FontColor]
+            Position.X = 50.000000000000000000
+            Position.Y = 322.000000000000000000
+            Size.Width = 200.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'buttonstyle'
+            Text = 'Entrar'
+            TextSettings.Font.Family = 'Calibri'
+            TextSettings.Font.Size = 22.000000000000000000
+            OnClick = btn_entrar_fnClick
+          end
+        end
+        object Layout3: TLayout
+          Align = Top
+          Size.Width = 390.000000000000000000
+          Size.Height = 73.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          object SpeedButton3: TSpeedButton
+            Position.X = 1.000000000000000000
+            Size.Width = 56.000000000000000000
+            Size.Height = 73.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'arrowlefttoolbuttonbordered'
+            Text = 'SpeedButton3'
+            OnClick = SpeedButton3Click
+          end
+          object Label7: TLabel
+            Align = Center
+            StyledSettings = [FontColor]
+            Size.Width = 120.000000000000000000
+            Size.Height = 39.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Calibri'
+            TextSettings.Font.Size = 32.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.HorzAlign = Center
+            Text = 'Entrar'
+            TabOrder = 1
+          end
+        end
+      end
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem2'
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object Layout2: TLayout
+        Align = Client
+        Size.Width = 390.000000000000000000
+        Size.Height = 800.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Panel2: TPanel
+          Align = Center
+          Size.Width = 300.000000000000000000
+          Size.Height = 495.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object edt_cd_email: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 5
+            Position.X = 15.000000000000000000
+            Position.Y = 230.000000000000000000
+            Size.Width = 270.000000000000000000
+            Size.Height = 35.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object btn_cadastro_fn: TSpeedButton
+            StyledSettings = [Style, FontColor]
+            Position.X = 50.000000000000000000
+            Position.Y = 410.000000000000000000
+            Size.Width = 200.000000000000000000
+            Size.Height = 40.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'buttonstyle'
+            Text = 'Cadastrar-se'
+            TextSettings.Font.Family = 'Calibri'
+            TextSettings.Font.Size = 22.000000000000000000
+            OnClick = btn_cadastro_fnClick
+          end
+          object edt_cd_senha: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 3
+            Password = True
+            Position.X = 15.000000000000000000
+            Position.Y = 320.000000000000000000
+            Size.Width = 270.000000000000000000
+            Size.Height = 35.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object Label3: TLabel
+            StyledSettings = [Family, Style, FontColor]
+            Position.X = 15.000000000000000000
+            Position.Y = 210.000000000000000000
+            TextSettings.Font.Size = 16.000000000000000000
+            Text = 'E-mail *'
+            TabOrder = 9
+          end
+          object Label4: TLabel
+            StyledSettings = [Family, Style, FontColor]
+            Position.X = 15.000000000000000000
+            Position.Y = 300.000000000000000000
+            TextSettings.Font.Size = 16.000000000000000000
+            Text = 'Senha *'
+            TabOrder = 8
+          end
+          object Label5: TLabel
+            StyledSettings = [Family, Style, FontColor]
+            Position.X = 15.000000000000000000
+            Position.Y = 120.000000000000000000
+            TextSettings.Font.Size = 16.000000000000000000
+            Text = 'RA *'
+            TabOrder = 7
+          end
+          object edt_cd_ra: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 2
+            Position.X = 15.000000000000000000
+            Position.Y = 140.000000000000000000
+            Size.Width = 270.000000000000000000
+            Size.Height = 35.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object edt_cd_nome: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 1
+            Position.X = 15.000000000000000000
+            Position.Y = 50.000000000000000000
+            Size.Width = 270.000000000000000000
+            Size.Height = 35.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object Label6: TLabel
+            StyledSettings = [Family, Style, FontColor]
+            Position.X = 15.000000000000000000
+            Position.Y = 30.000000000000000000
+            TextSettings.Font.Size = 16.000000000000000000
+            Text = 'Nome *'
+            TabOrder = 4
+          end
+        end
+        object Layout4: TLayout
+          Align = Top
+          Size.Width = 390.000000000000000000
+          Size.Height = 73.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          object SpeedButton4: TSpeedButton
+            Position.X = 1.000000000000000000
+            Size.Width = 56.000000000000000000
+            Size.Height = 73.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'arrowlefttoolbuttonbordered'
+            Text = 'SpeedButton3'
+            OnClick = SpeedButton4Click
+          end
+          object Label8: TLabel
+            Align = Center
+            StyledSettings = [FontColor]
+            Size.Width = 130.000000000000000000
+            Size.Height = 39.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Calibri'
+            TextSettings.Font.Size = 32.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.HorzAlign = Center
+            Text = 'Cadastro'
+            TabOrder = 1
+          end
+        end
+      end
+    end
+  end
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'LockingMode=Normal'
+      
+        'Database=C:\Users\geova\OneDrive\Documentos\Embarcadero\Studio\P' +
+        'rojects\HelpDesk\Banco\Banco'
+      'DriverID=SQLite')
+    Left = 24
+    Top = 80
+  end
+  object FDQUsuario: TFDQuery
+    Connection = FDConnection1
+    SQL.Strings = (
+      'Select * from Usuario')
+    Left = 104
+    Top = 80
+  end
+  object FDQLogin: TFDQuery
+    Connection = FDConnection1
+    SQL.Strings = (
+      'Select * from login')
+    Left = 168
+    Top = 80
+  end
+end

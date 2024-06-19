@@ -1,0 +1,13 @@
+﻿[btn_entrar]
+Coordinates=109,10,65,51
+
+[btn_cadastro]
+Coordinates=10,10,187,1833
+Visible=True
+ExplicitSubNodes=AutoCapture;AutoTranslate;CanFocus;CanParentFocus;Canvas.Blending;ClipChildren;ClipParent;ComponentIndex;Controls.Capacity;Controls.Count;Cursor;DefaultTextSettings.FontColor;DefaultTextSettings.IsAdjustChanged;DefaultTextSettings.IsChanged;DefaultTextSettings.WordWrap;DesignInfo;DisableDisappear;DisableFocusEffect;Enabled;EnableDragHighlight;Font.Family;Font.Size;FontColor;GroupName;Height;HelpContext;HelpKeyword;Hint;HitTest;IconTintColor;ImageIndex;Index;IsPressed;Locked;Margins.Bottom;Margins.Left;Margins.Right;Margins.Top;ModalResult;Opacity;Owner.ComponentIndex;Owner.DesignInfo;Owner.Name;Owner.Tag;Padding.Bottom;Padding.Left;Padding.Right;Padding.Top;Parent.ComponentIndex;Parent.DesignInfo;Parent.Index;Parent.Name;Parent.Stored;Parent.StyleName;Parent.Tag;Parent.TagFloat;Parent.TagString;ParentShowHint;Position.StoreAsInt;Position.X;Position.Y;Pressed;RepeatClick;ResultingTextSettings.FontColor;ResultingTextSettings.IsAdjustChanged;ResultingTextSettings.IsChanged;ResultingTextSettings.WordWrap;RotationAngle;RotationCenter.StoreAsInt;RotationCenter.X;RotationCenter.Y;Scale.StoreAsInt;Scale.X;Scale.Y;ShowHint;Size.Height;Size.PlatformDefault;Size.Width;StaysPressed;Stored;StyleLookup;StyleName;TabOrder;TabStop;Tag;TagFloat;TagString;TextSettings.FontColor;TextSettings.IsAdjustChanged;TextSettings.IsChanged;TextSettings.WordWrap;TintColor;TouchTargetExpansion.Bottom;TouchTargetExpansion.Left;TouchTargetExpansion.Right;TouchTargetExpansion.Top;Visible;Width;WordWrap
+
+[]
+Coordinates=108,80,82,33
+Visible=True
+ExplicitSubNodes=
+
